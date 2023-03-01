@@ -1,0 +1,55 @@
+source - https://learnweb3.io/courses/9a3fafe4-b5eb-4329-bdef-97b2aa6aacc1/lessons/1d8fc04a-af1b-4680-ac8b-755825d84ccc
+Steps:
+1. Download and install metamask
+2. Request Goerli testnet ether 
+3. Install code editor 
+4. Install a HTTP server.
+    npm install -g lite-server
+5. Create and Serve a Simple Webpage
+6. Create a basic smart contract 
+7. Deploy to Goerli testnet
+8. Connect webpage to smart contract 
+
+
+
+
+Tech stack:
+1. HTML
+2. lite-server
+3. Remix 
+4. Metamask Goerli testnet
+
+
+
+
+Temporary store 
+Contract Address: 0xF002744d9a201e0b8844892a7EB8c41b82106141
+ABI: 
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_mood",
+				"type": "string"
+			}
+		],
+		"name": "setMood",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getMood",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
